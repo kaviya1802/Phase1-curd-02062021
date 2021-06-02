@@ -17,6 +17,7 @@
     <servlet-name>InitializeConnection</servlet-name>
     <url-pattern>/init</url-pattern>
   </servlet-mapping>
+  
   <servlet>
     <servlet-name>ReadProduct</servlet-name>
     <servlet-class>com.simplilearn.web.ReadProduct</servlet-class>
@@ -26,7 +27,7 @@
     <url-pattern>/read</url-pattern>
   </servlet-mapping>
   
-    <servlet>
+  <servlet>
     <servlet-name>AddProduct</servlet-name>
     <servlet-class>com.simplilearn.web.AddProduct</servlet-class>
   </servlet>
@@ -35,4 +36,21 @@
     <url-pattern>/add</url-pattern>
   </servlet-mapping>
   
+  <servlet>
+    <servlet-name>UpdateProduct</servlet-name>
+    <servlet-class>com.simplilearn.web.UpdateProduct</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateProduct</servlet-name>
+    <url-pattern>/update</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>DeleteProduct</servlet-name>
+    <servlet-class>com.simplilearn.web.DeleteProduct</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteProduct</servlet-name>
+    <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
 </web-app>

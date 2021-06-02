@@ -17,7 +17,6 @@
     <servlet-name>InitializeConnection</servlet-name>
     <url-pattern>/init</url-pattern>
   </servlet-mapping>
-  
   <servlet>
     <servlet-name>ReadProduct</servlet-name>
     <servlet-class>com.simplilearn.web.ReadProduct</servlet-class>
@@ -26,7 +25,6 @@
     <servlet-name>ReadProduct</servlet-name>
     <url-pattern>/read</url-pattern>
   </servlet-mapping>
-  
   <servlet>
     <servlet-name>AddProduct</servlet-name>
     <servlet-class>com.simplilearn.web.AddProduct</servlet-class>
@@ -37,6 +35,15 @@
   </servlet-mapping>
   
   <servlet>
+    <servlet-name>CallAddProductStoredProcedure</servlet-name>
+    <servlet-class>com.simplilearn.web.CallAddProductStoredProcedure</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CallAddProductStoredProcedure</servlet-name>
+    <url-pattern>/add-product-sp</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
     <servlet-name>UpdateProduct</servlet-name>
     <servlet-class>com.simplilearn.web.UpdateProduct</servlet-class>
   </servlet>
@@ -44,8 +51,7 @@
     <servlet-name>UpdateProduct</servlet-name>
     <url-pattern>/update</url-pattern>
   </servlet-mapping>
-  
-    <servlet>
+  <servlet>
     <servlet-name>UpdateProductwithParam</servlet-name>
     <servlet-class>com.simplilearn.web.UpdateProductwithParam</servlet-class>
   </servlet>
@@ -53,7 +59,6 @@
     <servlet-name>UpdateProductwithParam</servlet-name>
     <url-pattern>/updatewithparam</url-pattern>
   </servlet-mapping>
-  
   <servlet>
     <servlet-name>DeleteProduct</servlet-name>
     <servlet-class>com.simplilearn.web.DeleteProduct</servlet-class>

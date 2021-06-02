@@ -33,7 +33,7 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>AddProduct</servlet-name>
-    <url-pattern>/add</url-pattern>
+    <url-pattern>/add-product</url-pattern>
   </servlet-mapping>
   
   <servlet>
@@ -43,6 +43,15 @@
   <servlet-mapping>
     <servlet-name>UpdateProduct</servlet-name>
     <url-pattern>/update</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>UpdateProductwithParam</servlet-name>
+    <servlet-class>com.simplilearn.web.UpdateProductwithParam</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateProductwithParam</servlet-name>
+    <url-pattern>/updatewithparam</url-pattern>
   </servlet-mapping>
   
   <servlet>
